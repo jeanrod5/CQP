@@ -3,7 +3,11 @@
 }
 
 h1 {
-  font-family: 'Bigelow Rules';
-  font-size: 72px;
-  color: #0ccac4
+  font-family: "poppins";
+  font-size: 70px;
+  color:black;
+}
+
+.logo {
+  max-width: 15%;
 }
