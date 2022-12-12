@@ -6,6 +6,6 @@ import './table-list.styles.css';
 
 export const TableList = props => (
     <div className= 'table-list'>
-            <TableData/>
+            <TableData/>  
     </div>
 );

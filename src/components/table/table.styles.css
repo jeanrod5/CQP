@@ -2,9 +2,10 @@
     display: inline-table;
     border: 1px solid black;
     table-layout: auto;
-    width: 100%; 
+    width: 80vw; 
     flex-direction: column;
-    background-color: #95dada;
+    background-color: white;
+    color: #186B6D;
     border: 1px solid grey;
     border-radius: 5px;
     padding: 25px;
@@ -15,8 +16,13 @@
     transition: transform 0.25s ease-out;
   }
 
-  
-  
+
   .tr:hover {
-    background: yellow;
+    background-color: #ddd;
   }
+
+  tr:nth-child(even){
+    background-color: #f2f2f2;
+  }
+  
+  
